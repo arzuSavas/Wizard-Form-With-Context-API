@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+body{
+  background-color: #2d3049;
+}
+button{
+  background-color: #4e5cda;
+  color:white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 48px;
+  border-radius: 3px; 
+  margin:20px;
+  padding:0 58px;
+  border:none;
+  text-align: center;
+  
+}
+button:hover{
+  background-color: #2d3049;
+}
+p{
+  margin: 3px;
+  color: gray;
+  margin: 3px; 
+  width:200px; 
+  word-wrap:break-word; 
+}

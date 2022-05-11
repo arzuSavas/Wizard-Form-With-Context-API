@@ -1,0 +1,136 @@
+.WizardForm{
+  width: 500px;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 27px;
+}
+.section{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.contact{
+  height: 400px;
+}
+.Form-header{
+  font-weight: bold;
+  color: #585965;
+  font-size: 22px;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.label-elements{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  height: auto;
+  padding: 10px 20px;
+  margin:4px 48px;
+  border: solid 2px #ebeced;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+.label-elements:hover{
+  background-color: #ededed;
+  border: solid 2px #4e5cda;
+  color: #4e5cda;
+}
+input[type="checkbox" i] {
+  background-color: #2cb34f0f;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+.section_address{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 2px;
+  align-items: center;
+}
+.oldaddress{
+  text-align: start;
+}
+.newaddress{
+  text-align: start;
+  margin:10px;
+}
+.section-elements{
+  margin: 9px 0px;
+}
+.section_address textarea {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  width: 435px;
+  height: 125px;
+  border: solid 2px #ebeced;
+}
+.section_address >label{
+  align-items: flex-start;
+  margin: 10px 0;
+}
+.section-contact{
+  display: flex;
+}
+.contact-elements{
+  display: flex;
+  cursor: pointer;
+  height: auto;
+  padding: 14px 20px;
+  margin: 10px 22px;
+  border: solid 2px #ebeced;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+.confirm{
+  height: 400px;
+  overflow-y: auto;
+}
+.section-confirm{
+  margin-bottom: 20px;    
+}
+.section-confirm>div{
+ padding: 10px 20px; 
+ justify-content: space-between;
+}
+.home-info{
+  display: flex;
+  justify-content: end;
+  text-align: start;
+}
+.contact-info{
+  text-align: start;
+}
+.contact-info>div{
+  display: flex;
+  margin: 10px;
+  justify-content: end;
+}
+.progressbar{
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.05);  
+}
+.progress{
+  height: 100%;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 0.5s;
+} 
+
